@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment - Pediatrics of Manassas</title>
+</head>
+<body>
+    <h2>Book an Appointment</h2>
+    <form method="POST" action="/book-form">
+        <label>Patient Name:</label><br>
+        <input type="text" name="patient_name" required><br><br>
+
+        <label>Appointment Type:</label><br>
+        <select name="type" required>
+            <option value="checkup">Checkup</option>
+            <option value="sick">Sick</option>
+            <option value="consultation">Consultation</option>
+        </select><br><br>
+
+        <label>Provider:</label><br>
+        <select name="provider" required>
+            <option value="Dr. Chowhan">Dr. Chowhan</option>
+            <option value="Nurse Practitioner A">Nurse Practitioner A</option>
+            <option value="Nurse Practitioner B">Nurse Practitioner B</option>
+        </select><br><br>
+
+        <label>Date:</label><br>
+        <input type="date" name="date" required><br><br>
+
+        <label>Time:</label><br>
+        <input type="time" name="time" required><br><br>
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,3 @@
+{
+  "clinic_hours": {"mon_fri": {"start": "09:00", "end": "16:00"}, "saturday": {"start": "08:30", "end": "12:30"}}, "appointment_durations": {"checkup": 30, "sick": 15, "consultation": 30}, "saturday_policy": {"checkup_slots": 4, "sick_same_day_only": true}
+}
