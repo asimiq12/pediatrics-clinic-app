@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "employee_id": "EMP001",
+    "first_name": "Anika",
+    "last_name": "Chowhan",
+    "role": "doctor",
+    "email": "anika@pediatricsclinic.com",
+    "phone": "+1-571-555-0101",
+    "address": {
+      "street": "123 Main St",
+      "city": "Manassas",
+      "state": "VA",
+      "zip": "20110"
+    },
+    "ssn": "123-45-6789",
+    "dob": "1985-09-12",
+    "gender": "female",
+    "start_date": "2024-01-15",
+    "active": true,
+    "salary_type": "hourly",
+    "salary_amount": 85.00,
+    "license_number": "VA-PED-8843",
+    "npi_number": "1679876543",
+    "background_check_date": "2024-01-10",
+    "emergency_contact": {
+      "name": "Arif Chowhan",
+      "relationship": "Spouse",
+      "phone": "+1-571-555-9999"
+    },
+    "notes": "Founder and lead pediatrician"
+  },
+  {
+    "employee_id": "EMP002",
+    "first_name": "Ayesha",
+    "last_name": "Patel",
+    "role": "doctor",
+    "email": "ayesha@pediatricsclinic.com",
+    "phone": "+1-571-555-0202",
+    "address": {
+      "street": "456 Health Ave",
+      "city": "Manassas",
+      "state": "VA",
+      "zip": "20110"
+    },
+    "ssn": "234-56-7890",
+    "dob": "1990-06-21",
+    "gender": "female",
+    "start_date": "2024-02-01",
+    "active": true,
+    "salary_type": "hourly",
+    "salary_amount": 70.00,
+    "license_number": "VA-NP-2201",
+    "npi_number": "1679876544",
+    "background_check_date": "2024-01-20",
+    "emergency_contact": {
+      "name": "Sara Patel",
+      "relationship": "Sister",
+      "phone": "+1-571-555-1010"
+    },
+    "notes": "Nurse practitioner with pediatric specialty"
+  }
+]
